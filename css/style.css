@@ -327,6 +327,7 @@ header {
   padding: 0 0 100px 0;
   width: 100%;
   background-color: var(--red) !important;
+  margin-top: -1px;
 }
 
 .result-in {
