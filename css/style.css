@@ -1200,7 +1200,7 @@ header {
   grid-column: span 2;
   grid-row: span 18;
   background-color: var(--red);
-  background-image: url("../assets/images/bottom1.webp");
+  /* background-image: url("../assets/images/bottom1.webp"); */
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1210,7 +1210,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   background-color: var(--black);
-  background-image: url("../assets/images/bottom2.webp");
+  /* background-image: url("../assets/images/bottom2.webp"); */
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1220,7 +1220,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   border: 1px solid var(--red);
-  background-image: url("../assets/images/bottom3.webp");
+  /* background-image: url("../assets/images/bottom3.webp"); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1236,7 +1236,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   border: 1px solid var(--red);
-  background-image: url("../assets/images/bottom3.webp");
+  /* background-image: url("../assets/images/bottom3.webp"); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1255,7 +1255,7 @@ header {
   grid-column: span 2;
   grid-row: span 18;
   background-color: var(--red);
-  background-image: url("../assets/images/bottom1.webp");
+  /* background-image: url("../assets/images/bottom1.webp"); */
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1268,7 +1268,7 @@ header {
   grid-column: span 1;
   grid-row: span 36;
   background-color: var(--black);
-  background-image: url("../assets/images/bottom3.webp");
+  /* background-image: url("../assets/images/bottom3.webp"); */
   background-size: 95%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1278,7 +1278,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   border: 1px solid var(--red);
-  background-image: url("../assets/images/bottom2.webp");
+  /* background-image: url("../assets/images/bottom2.webp"); */
   background-size: 80%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1296,7 +1296,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   background-color: var(--red);
-  background-image: url("../assets/images/bottom3.webp");
+  /* background-image: url("../assets/images/bottom3.webp"); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: bottom right;
@@ -1306,7 +1306,7 @@ header {
   grid-column: span 1;
   grid-row: span 18;
   border: 1px solid var(--red);
-  background-image: url("../assets/images/bottom1.webp");
+  /* background-image: url("../assets/images/bottom1.webp"); */
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: bottom right;
