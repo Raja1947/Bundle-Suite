@@ -518,7 +518,7 @@ header {
   gap: 10px;
 }
 .left-in p:nth-child(1) {
-  font-size: 40px;
+  font-size: 50px;
   text-transform: capitalize;
   line-height: 1.5em;
   font-weight: 400;
