@@ -846,9 +846,17 @@ header {
   width: 100%;
 }
 .mail-box input {
-  width: 65%;
+  width: 70%; 
   padding: 10px 20px;
 }
+
+/* 27/05/2025 new css */
+.mail-box textarea{
+  width: 70%;
+  height: 100px;
+  padding: 10px 20px;
+}
+/* new end here  */
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -1080,6 +1088,47 @@ header {
 .top-up-right ul a:hover::after {
   width: 100%;
 }
+/* new css 27/05/2025 */
+.top-down{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.mail-right {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px; 
+}
+
+.mail-right input[type="email"] {
+  flex: 1;
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+.mail-right button {
+  padding: 12px 20px;
+  border: 1px solid var(--red);
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background-color: var(--red);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mail-right button:hover {
+  background-color: var(--red);
+}
+/* new end here  */
+
 
 .top-down .footer-btn {
   display: flex;
@@ -1125,6 +1174,17 @@ header {
     gap: 35px;
   }
 }
+
+/* new css 25/05/2025  */
+@media screen and (max-width:950px){
+  .top-down{
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+}
+/* new end here  */
+
 @media screen and (max-width: 790px) {
   .footer-in-top {
     gap: 20px;
