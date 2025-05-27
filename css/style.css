@@ -1175,7 +1175,7 @@ header {
   }
 }
 
-/* new css 25/05/2025  */
+/* new css 27/05/2025  */
 @media screen and (max-width:950px){
   .top-down{
     flex-direction: column;
@@ -1729,3 +1729,15 @@ header {
 }
 
 /* /////////// new-slider ends /////////////// */
+
+
+
+/* new css 27/05/2025  */
+
+.revenue-bottom.one{
+  grid-template-columns:1fr 1fr;
+  gap:40px;
+}
+.revenue-bottom.two .right-in{
+  padding:60px
+}
