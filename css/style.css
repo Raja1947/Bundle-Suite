@@ -736,9 +736,7 @@ header {
 }
 
 @media screen and (max-width: 790px) {
-  html {
-    font-size: 30px;
-  }
+ 
   .wrapper {
     width: 80%;
   }
@@ -821,53 +819,126 @@ header {
 /* /////////// get-end //////////// */
 
 /* <!-- //////////// email-start /////////// --> */
-
 .email-in {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  gap: 30px;
-  color: var(--white);
-  border: 1px solid var(--white);
+
+  gap: 70px;
+  background-color: #fff;
   border-radius: 25px;
-  padding: 60px;
-  color: black;
-  background-color: var(--white);
-}
-.email-in-top,
-.email-in-bottom {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 25px;
-}
-.mail-box {
-  width: 100%;
-}
-.mail-box input {
-  width: 70%; 
-  padding: 10px 20px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 27/05/2025 new css */
-.mail-box textarea{
-  width: 70%;
-  height: 100px;
-  padding: 10px 20px;
+.email-in-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+align-items: center;
+  gap: 40px;
+  background-color: #fff;
+  max-width: 900px;
 }
-/* new end here  */
+
+.email-info {
+  
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  
+}
+.email-info p:nth-child(1){
+      font-size: 40px;
+    text-transform: capitalize;
+    line-height: 1.5em;
+    font-weight: 500;
+    margin: 0px;
+}
+.email-info p:nth-child(2) {
+    max-width: 33ch;
+    line-height: 28px;
+    color: var(--lightgrey);
+}
+
+.email-info h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mail-box{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mail-box input,
+.mail-box textarea {
+  width: 100%;
+  border-radius: 7px;
+  padding: 12px 10px;
+  border: 1px solid var(--lightgrey);
+  /* border-bottom: 1px solid var(--lightgrey); */
+  
+  font-size: 1rem;
+}
+/* .mail-box input:focus, .mail-box textarea:focus{
+  outline: none;
+  border-bottom: 1px solid var(--lightgrey);
+} */
+
+.mail-box textarea {
+  height: 100px;
+  resize: none;
+}
+
+.email-in-bottom .btn a:hover {
+  background-color: #555;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .email-in {
-    padding: 40px;
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .main-heading {
+    font-size: 1.75rem;
+  }
+  .email-in-form{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form{
+    width: 100%;
   }
 }
 
 @media (max-width: 480px) {
+  .main-heading {
+    font-size: 1.5rem;
+  }
+
+  .email-container {
+    padding: 20px 10px;
+  }
+
   .email-in {
-    padding: 30px;
+    padding: 20px;
   }
 }
 
@@ -1089,7 +1160,7 @@ header {
   width: 100%;
 }
 /* new css 27/05/2025 */
-.top-down{
+.top-down {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1099,7 +1170,7 @@ header {
   display: flex;
   align-items: center;
   width: 100%;
-  max-width: 500px; 
+  max-width: 500px;
 }
 
 .mail-right input[type="email"] {
@@ -1128,7 +1199,6 @@ header {
   background-color: var(--red);
 }
 /* new end here  */
-
 
 .top-down .footer-btn {
   display: flex;
@@ -1176,8 +1246,8 @@ header {
 }
 
 /* new css 27/05/2025  */
-@media screen and (max-width:950px){
-  .top-down{
+@media screen and (max-width: 950px) {
+  .top-down {
     flex-direction: column;
     gap: 30px;
     align-items: flex-start;
@@ -1649,11 +1719,11 @@ header {
   .possibility-bottom {
     gap: 30px;
   }
-  .possibility-bottom-top{
+  .possibility-bottom-top {
     gap: 10px;
   }
-  .possibility-bottom-top button{
-    padding:8px 16px;
+  .possibility-bottom-top button {
+    padding: 8px 16px;
   }
 }
 /* ///////////////////possibility ends here ///////////// */
@@ -1730,14 +1800,12 @@ header {
 
 /* /////////// new-slider ends /////////////// */
 
-
-
 /* new css 27/05/2025  */
 
-.revenue-bottom.one{
-  grid-template-columns:1fr 1fr;
-  gap:40px;
+.revenue-bottom.one {
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
 }
-.revenue-bottom.two .right-in{
-  padding:60px
+.revenue-bottom.two .right-in {
+  padding: 60px;
 }

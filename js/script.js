@@ -73,6 +73,11 @@ $(".logoSlider").bxSlider({
 });
 
 let question = document.querySelectorAll(".question");
+if (question.length > 0) {
+  question[0].classList.add("active");
+  question[0].nextElementSibling.style.maxHeight =
+    question[0].nextElementSibling.scrollHeight + "px";
+}
 
 question.forEach((question) => {
   question.addEventListener("click", (event) => {
